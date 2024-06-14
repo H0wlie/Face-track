@@ -26,8 +26,8 @@ studentDB = pd.read_excel('Students.xlsx')
 
 def sendemail(reciever,fullname):
     # Define email sender and receiver
-    email_sender = 'johngabrielsalamera@gmail.com'
-    email_password = 'qwhh aunv fmjo kxbq' 
+    email_sender = 'insert email used'
+    email_password = 'insert password of email' 
 
     # Set the subject and body of the email
     subject = f'{fullname} has arrived at school'
